@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(235, 134, 188,0.2),rgba(57,57,57,0.5)), url(img/background\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-text{
+    width: 90%;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 90px;
+}
+
+.main-text p{
+    font-size: 40px;
+}
+
+
+.art-container{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F5F6F7;
+}
+
+.art-text {
+    width: 80%;
+    background-color: white;
+    padding: 3%;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5%;
+}
+
+.art-text h1 {
+    font-size: 20px;
+}
+
+.art-text p{
+    padding: 5%;
+    font-size: 18px;
+}
+
+.art-text li{
+    text-align: left;
+}
+
+
+.intro {
+    padding-top: 50px;
+    color: black;
+    background-color: #F5F6F7;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.intro h1 {
+    font-size: 40px;
+    text-align: left;
+    float: left;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.intro p {
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 6%;
+    margin-left: 15%;
+    color: #4b4f58;
+}
+
+.introduction {
+
+    padding-left: 5%;
+
+}
+
+.divider-intro {
+    border-top: 3px solid #F542A2;
+    width: 80px;
+    justify-content: center;
+    margin-top: 35%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    border-radius: 5px;
+}
+
+.foto-about {
+    margin-top: 3%;
+    padding-left: 10%;
+}
+
+.foto-about img{
+    border-radius: 10px;
+}
+
+
+.redes {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(235, 134, 188,0.5),rgba(57,57,57,0.5)), url(img/background\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials-text {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.socials-text h2 {
+    font-size: 70px;
+}
+
+.socials-text p {
+    font-size: 40px;
+}
